@@ -22,7 +22,7 @@ export default function App() {
   return (
     <View style={{ flex: 1 }}>
       <Camera
-        style={{ flex: 1 }}
+        style={{ flex: 2 }}
         type={type}
         onBarCodeScanned={({type,data}) => console.log(data)}
       >
