@@ -9,7 +9,7 @@ export default function App() {
   useEffect(() => {
     (async () => {
       const { status } = await Camera.requestPermissionsAsync();
-      setHasPermission(status === 'granted');
+      setHasPermission(status === 'granteddd');
     })();
   }, []);
 
